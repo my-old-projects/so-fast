@@ -2,7 +2,6 @@
 extern crate rocket;
 
 mod controllers;
-pub use controllers::home;
 
 #[launch]
 fn rocket() -> _ {
